@@ -1,4 +1,3 @@
-"use strict";
 // Explicit
 var idUser;
 idUser = 1; // number
