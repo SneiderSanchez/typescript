@@ -1,16 +1,16 @@
 "use strict";
 // Explicit
-var idUser;
+let idUser;
 idUser = 1; // number
 idUser = "hey"; // string
 console.log("idUser", idUser);
 // Implicito
-var otherId;
+let otherId;
 otherId = 1;
 otherId = "hey";
 otherId = true;
 console.log("otherId", otherId);
-var surprice = "hello typescript";
+let surprice = "hello typescript";
 // surprice.sayHello(); //Error
-var res = surprice.substring("6"); //Error
+const res = surprice.substring("6"); //Error
 console.log("res", res);

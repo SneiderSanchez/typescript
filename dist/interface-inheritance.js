@@ -1,10 +1,10 @@
 "use strict";
-var album = {
+const album = {
     id: 2,
     title: "Test albun",
     description: "description",
 };
-var myPicture = {
+const myPicture = {
     id: 2,
     title: "Test albun",
     orientation: PhotoOrientation.Landscape,

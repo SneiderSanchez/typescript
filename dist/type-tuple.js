@@ -1,15 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // [1,'userName']
-var user;
+let user;
 user = [1, "username"];
 console.log("user", user);
 // multiple values
 // id,username,isPro
-var userInfo;
+let userInfo;
 userInfo = [2, "username", true];
 // tuple array
-var array = [];
+let array = [];
 array.push([1, "test"]);
 array.push([2, "test2"]);
 array.push([3, "test3"]);

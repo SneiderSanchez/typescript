@@ -1,6 +1,6 @@
 "use strict";
 // type: object
-var user;
+let user;
 user = {}; // object
 user = {
     id: 1,
@@ -9,11 +9,11 @@ user = {
     isPro: true,
 };
 //Object vs object (JS vs TS)
-var myObject = {
+const myObject = {
     id: 1,
     username: "test",
     firstName: "Test name",
     isPro: true,
 };
-var isInstance = myObject instanceof Object;
+const isInstance = myObject instanceof Object;
 console.log("isInstance", isInstance);

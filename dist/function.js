@@ -12,19 +12,18 @@ function createPicture(title, date, size) {
     // ...
 }
 // flat arrow function
-var createPic = function (title, date, size) {
+let createPic = (title, date, size) => {
     return {
-        title: title,
-        date: date,
-        size: size,
+        title,
+        date,
+        size,
     };
 };
 // default values
-var createPict = function (title, date, size) {
-    if (size === void 0) { size = "100x100"; }
+let createPict = (title, date, size = "100x100") => {
     return {
-        title: title,
-        date: date,
-        size: size,
+        title,
+        date,
+        size,
     };
 };

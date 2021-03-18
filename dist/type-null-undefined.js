@@ -1,16 +1,16 @@
 "use strict";
 // Null
-var nullVariable;
+let nullVariable;
 nullVariable = null;
 //nullVariable = 1; //Error
-var otherVariable = null;
+let otherVariable = null;
 otherVariable = "test";
 //  Undefined
-var undefinedVariable = undefined;
+let undefinedVariable = undefined;
 //undefinedVariable = "test"; // Error
-var otherUndefined = undefined;
+let otherUndefined = undefined;
 otherUndefined = "hey";
 // --strictNullChecks
-var albunName;
+let albunName;
 /* albunName = null;
 albunName = undefined; */

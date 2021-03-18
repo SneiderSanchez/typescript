@@ -1,26 +1,24 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Picture = /** @class */ (function () {
-    function Picture(id, title, orientation) {
+class Picture {
+    constructor(id, title, orientation) {
         this.id = id;
         this.title = title;
         this.orientation = orientation;
     }
-    Picture.prototype.titleToString = function () {
-        return "title " + this.title;
-    };
-    return Picture;
-}());
-var Album = /** @class */ (function () {
-    function Album(id, title) {
+    titleToString() {
+        return `title ${this.title}`;
+    }
+}
+class Album {
+    constructor(id, title) {
         this.id = id;
         this.title = title;
         this.pictures = [];
     }
-    Album.prototype.addPicture = function (picture) {
+    addPicture(picture) {
         this.pictures.push(picture);
-    };
-    return Album;
-}());
-var picture = new Picture(1, "test", PhotoOrientation.Landscape);
+    }
+}
+const picture = new Picture(1, "test", PhotoOrientation.Landscape);
 picture.id = 50;

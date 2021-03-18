@@ -1,9 +1,9 @@
 "use strict";
 // <> Angle Bracket Syntax
-var username;
+let username;
 username = "test";
 // We have a string, TS trust me!
-var message = username.length > 5 ? "Hey " + username : "username is too short";
+let message = username.length > 5 ? `Hey ${username}` : "username is too short";
 // as
 message =
-    username.length > 5 ? "Hey " + username : "username is too short";
+    username.length > 5 ? `Hey ${username}` : "username is too short";

@@ -5,7 +5,7 @@ var PhotoOrientation;
     PhotoOrientation[PhotoOrientation["Portrait"] = 1] = "Portrait";
     PhotoOrientation[PhotoOrientation["Square"] = 2] = "Square";
 })(PhotoOrientation || (PhotoOrientation = {}));
-var landscape = PhotoOrientation.Landscape;
+const landscape = PhotoOrientation.Landscape;
 PhotoOrientation[landscape]; // Landscape
 var PictureOrientation;
 (function (PictureOrientation) {
